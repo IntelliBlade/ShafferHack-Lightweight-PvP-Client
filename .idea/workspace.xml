@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ef4c366-fa88-41e6-8932-6d615416e2b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/OyVey_Rewrite-BUILDABLE_SRC-main">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="alpha432" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ShafferHackSRC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Sys Admin\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oX2fy2ICWDPArcWGWqCuHGVsYn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShafferHackSRC" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="me.alpha432.oyvey.features.modules.render" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ShafferHack\OyVey_Rewrite-BUILDABLE_SRC-main\src\main\java\me\alpha432\oyvey\features\modules\player" />
+      <recent name="D:\ShafferHack\OyVey_Rewrite-BUILDABLE_SRC-main\src\main\java\me\alpha432\oyvey\mixin\mixins" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ef4c366-fa88-41e6-8932-6d615416e2b2" name="Default Changelist" comment="" />
+      <created>1613418721736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613418721736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3711" y="63" key="#Project_Structure" timestamp="1613420469983">
+      <screen x="2560" y="-690" width="3800" height="2098" />
+    </state>
+    <state x="3711" y="63" key="#Project_Structure/-1366.-416.1352.720/-3840.352.1900.1029/0.-1080.1900.1029/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385@2560.-690.3800.2098" timestamp="1613420469983" />
+    <state x="3686" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613425795167">
+      <screen x="2560" y="-690" width="3800" height="2098" />
+    </state>
+    <state x="3686" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.-416.1352.720/-3840.352.1900.1029/0.-1080.1900.1029/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385@2560.-690.3800.2098" timestamp="1613425795167" />
+    <state x="1027" y="586" width="478" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613968942967">
+      <screen x="0" y="0" width="2534" height="1385" />
+    </state>
+    <state x="1027" y="586" width="478" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613968942967" />
+    <state x="996" y="439" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613968854491">
+      <screen x="0" y="0" width="2534" height="1385" />
+    </state>
+    <state x="996" y="439" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613968854491" />
+    <state x="1046" y="447" key="FileChooserDialogImpl" timestamp="1614045559083">
+      <screen x="0" y="0" width="2534" height="1385" />
+    </state>
+    <state x="1046" y="447" key="FileChooserDialogImpl/-1366.-416.1352.720/-3840.352.1900.1029/0.-1080.1900.1029/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385@0.0.2534.1385" timestamp="1613528472477" />
+    <state x="1046" y="447" key="FileChooserDialogImpl/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/-3840.352.1900.1029/-1366.-416.1352.720/0.-1080.1900.1029@0.0.2534.1385" timestamp="1614045559083" />
+    <state x="1046" y="447" key="FileChooserDialogImpl/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613885713967" />
+    <state x="1046" y="447" key="FileChooserDialogImpl/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385/0.-1080.1900.1029/-3840.352.1900.1029/-1366.-416.1352.720@0.0.2534.1385" timestamp="1613682028997" />
+    <state x="2781" y="-34" width="2349" height="1201" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613684227711">
+      <screen x="2560" y="-690" width="3800" height="2098" />
+    </state>
+    <state x="2781" y="-34" width="2349" height="1201" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385/0.-1080.1900.1029/-3840.352.1900.1029/-1366.-416.1352.720@0.0.2534.1385" timestamp="1613684227711" />
+    <state x="1084" y="606" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613942449948">
+      <screen x="0" y="0" width="2534" height="1385" />
+    </state>
+    <state x="1084" y="606" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613942449948" />
+    <state x="4123" y="-201" width="672" height="678" key="search.everywhere.popup" timestamp="1614045457241">
+      <screen x="2560" y="-690" width="3800" height="2098" />
+    </state>
+    <state x="4123" y="-201" width="672" height="678" key="search.everywhere.popup/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/-3840.352.1900.1029/-1366.-416.1352.720/0.-1080.1900.1029@2560.-690.3800.2098" timestamp="1614045457241" />
+    <state x="1115" y="565" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1613886227532">
+      <screen x="0" y="0" width="2534" height="1385" />
+    </state>
+    <state x="1115" y="565" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613886227532" />
+  </component>
+</project>

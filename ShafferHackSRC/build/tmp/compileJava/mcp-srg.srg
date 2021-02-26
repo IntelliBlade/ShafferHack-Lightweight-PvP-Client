@@ -1,0 +1,24 @@
+FD: me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/mc me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/field_78455_a
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/ENDER_CRYSTAL_TEXTURES me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/field_110787_a
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/modelEnderCrystal me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/field_76995_b
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/modelEnderCrystalNoBase me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/field_188316_g
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/LOGGER me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/field_147923_a
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/mainModel me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/field_77045_g
+FD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/renderMarker me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/field_188323_j
+MD: me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/renderItemInFirstPerson (Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/func_187457_a (Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/renderArmFirstPerson (FFLnet/minecraft/util/EnumHandSide;)V me/HHA/shafferhack/mixin/mixins/MixinItemRenderer/func_187456_a (FFLnet/minecraft/util/EnumHandSide;)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/doRender (Lnet/minecraft/entity/item/EntityEnderCrystal;DDDFF)V me/HHA/shafferhack/mixin/mixins/MixinRenderEnderCrystal/func_76986_a (Lnet/minecraft/entity/item/EntityEnderCrystal;DDDFF)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/isVisible (Lnet/minecraft/entity/EntityLivingBase;)Z me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_193115_c (Lnet/minecraft/entity/EntityLivingBase;)Z
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/getSwingProgress (Lnet/minecraft/entity/EntityLivingBase;F)F me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77040_d (Lnet/minecraft/entity/EntityLivingBase;F)F
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/interpolateRotation (FFF)F me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77034_a (FFF)F
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/handleRotationFloat (Lnet/minecraft/entity/EntityLivingBase;F)F me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77044_a (Lnet/minecraft/entity/EntityLivingBase;F)F
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/applyRotations (Lnet/minecraft/entity/EntityLivingBase;FFF)V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77043_a (Lnet/minecraft/entity/EntityLivingBase;FFF)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/prepareScale (Lnet/minecraft/entity/EntityLivingBase;F)F me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_188322_c (Lnet/minecraft/entity/EntityLivingBase;F)F
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/unsetScoreTeamColor ()V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_180565_e ()V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/setScoreTeamColor (Lnet/minecraft/entity/EntityLivingBase;)Z me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_177088_c (Lnet/minecraft/entity/EntityLivingBase;)Z
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/renderLivingAt (Lnet/minecraft/entity/EntityLivingBase;DDD)V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77039_a (Lnet/minecraft/entity/EntityLivingBase;DDD)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/unsetBrightness ()V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_177091_f ()V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/renderModel (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_77036_a (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/renderLayers (Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_177093_a (Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/setDoRenderBrightness (Lnet/minecraft/entity/EntityLivingBase;F)Z me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_177090_c (Lnet/minecraft/entity/EntityLivingBase;F)Z
+MD: me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/doRender (Lnet/minecraft/entity/EntityLivingBase;DDDFF)V me/HHA/shafferhack/mixin/mixins/MixinRenderLivingBase/func_76986_a (Lnet/minecraft/entity/EntityLivingBase;DDDFF)V
