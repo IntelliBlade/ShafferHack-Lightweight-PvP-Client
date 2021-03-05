@@ -1,6 +1,7 @@
 package me.HHA.shafferhack.manager;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
+import me.HHA.shafferhack.features.modules.render.HoleESP;
 import me.HHA.shafferhack.shafferhack;
 import me.HHA.shafferhack.event.events.Render2DEvent;
 import me.HHA.shafferhack.event.events.Render3DEvent;
@@ -48,6 +49,8 @@ public class ModuleManager
         this.modules.add(new AutoWeb());
         this.modules.add(new AutoGG());
         this.modules.add(new HoleFiller());
+        this.modules.add(new HoleESP());
+        this.modules.add(new BuildHeight());
 
 
     }

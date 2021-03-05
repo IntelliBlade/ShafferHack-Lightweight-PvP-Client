@@ -188,6 +188,7 @@ public class Module
         OLD("Old"),
         CLIENT("Client");
 
+
         private final String name;
 
         Category(String name) {

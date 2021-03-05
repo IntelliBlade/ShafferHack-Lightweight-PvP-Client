@@ -54,6 +54,14 @@ public class MathUtil
         return MathHelper.wrapDegrees(value);
     }
 
+    public static float[] calcAngle(Vec3d from, Vec3d to) {
+        double difX = to.x - from.x;
+        double difY = (to.y - from.y) * -1.0;
+        double difZ = to.z - from.z;
+        double dist = MathHelper.sqrt(difX * difX + difZ * difZ);
+        return new float[]{(float) MathHelper.wrapDegrees(Math.toDegrees(Math.atan2(difZ, difX)) - 90.0), (float) MathHelper.wrapDegrees(Math.toDegrees(Math.atan2(difY, dist)))};
+    }
+
     public static Vec3d roundVec(Vec3d vec3d, int places) {
         return new Vec3d(MathUtil.round(vec3d.x, places), MathUtil.round(vec3d.y, places), MathUtil.round(vec3d.z, places));
     }
@@ -128,6 +136,11 @@ public class MathUtil
         return rad * (double) 57.29578f;
     }
 
+    public static float[] calcAngleNoY(Vec3d from, Vec3d to) {
+        double difX = to.x - from.x;
+        double difZ = to.z - from.z;
+        return new float[]{(float) MathHelper.wrapDegrees(Math.toDegrees(Math.atan2(difZ, difX)) - 90.0)};
+    }
     public static double degToRad(double deg) {
         return deg * 0.01745329238474369;
     }
@@ -196,12 +209,5 @@ public class MathUtil
         return pos1.equals(pos2);
     }
 
-    public static float[] calcAngle(Vec3d from, Vec3d to) {
-        double difX = to.x - from.x;
-        double difY = (to.y - from.y) * -1.0;
-        double difZ = to.z - from.z;
-        double dist = MathHelper.sqrt(difX * difX + difZ * difZ);
-        return new float[]{(float) MathHelper.wrapDegrees(Math.toDegrees(Math.atan2(difZ, difX)) - 90.0), (float) MathHelper.wrapDegrees(Math.toDegrees(Math.atan2(difY, dist)))};
-    }
 }
 

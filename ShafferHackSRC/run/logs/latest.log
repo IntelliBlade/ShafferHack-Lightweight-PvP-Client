@@ -1,55 +1,145 @@
-[16:58:42] [main/INFO] [GradleStart]: Extra: []
-[16:58:42] [main/INFO] [GradleStart]: Found and added coremod: me.HHA.shafferhack.mixin.shafferhackMixinLoader
-[16:58:42] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/mjsha/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[16:58:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:58:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:58:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:58:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:58:42] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[16:58:42] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_271\jre
-[16:58:42] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[16:58:42] [main/ERROR] [FML]: Full: C:\Users\mjsha\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[16:58:42] [main/ERROR] [FML]: Trimmed: c:/users/mjsha/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[16:58:42] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:58:42] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[16:58:43] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[16:58:43] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[16:58:43] [main/INFO] [FML]: Found a command line coremod : me.HHA.shafferhack.mixin.shafferhackMixinLoader
-[16:58:43] [main/ERROR] [FML]: Coremod me.HHA.shafferhack.mixin.shafferhackMixinLoader: Unable to class load the plugin java.lang.ClassNotFoundException: me.HHA.shafferhack.mixin.shafferhackMixinLoader
-[16:58:43] [main/INFO] [FML]: Searching M:\ShafferHack\ShafferHackSRC\run\.\mods for mods
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:58:43] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[16:58:43] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[16:58:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:58:43] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:58:43] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[16:58:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:58:43] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:58:43] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player573
-[16:58:45] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[16:58:45] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[16:58:45] [main/INFO] [FML]: -- System Details --
+[18:31:31] [main/INFO] [GradleStart]: Extra: []
+[18:31:31] [main/INFO] [GradleStart]: Found and added coremod: me.HHA.shafferhack.mixin.shafferhackMixinLoader
+[18:31:31] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/mjsha/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:31:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:31:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:31:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:31:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:31:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[18:31:31] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_271\jre
+[18:31:31] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[18:31:31] [main/ERROR] [FML]: Full: C:\Users\mjsha\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[18:31:31] [main/ERROR] [FML]: Trimmed: c:/users/mjsha/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[18:31:31] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:31:31] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[18:31:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[18:31:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[18:31:32] [main/INFO] [FML]: Found a command line coremod : me.HHA.shafferhack.mixin.shafferhackMixinLoader
+[18:31:32] [main/ERROR] [FML]: Coremod me.HHA.shafferhack.mixin.shafferhackMixinLoader: Unable to class load the plugin java.lang.ClassNotFoundException: me.HHA.shafferhack.mixin.shafferhackMixinLoader
+[18:31:32] [main/INFO] [FML]: Searching M:\ShafferHack\ShafferHackSRC\run\.\mods for mods
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:31:32] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:31:32] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:31:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:31:32] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:31:32] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[18:31:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:31:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:31:32] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player510
+[18:31:34] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:31:34] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:31:34] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_271, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 667394960 bytes (636 MB) / 762314752 bytes (727 MB) up to 7621050368 bytes (7268 MB)
+	Memory: 661919968 bytes (631 MB) / 762839040 bytes (727 MB) up to 7621050368 bytes (7268 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 456.71' Renderer: 'GeForce RTX 2080 Ti/PCIe/SSE2'
-[16:58:45] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[16:58:45] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[16:58:46] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[16:58:46] [main/INFO] [FML]: Searching M:\ShafferHack\ShafferHackSRC\run\.\mods for mods
+[18:31:34] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[18:31:34] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:31:35] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[18:31:35] [main/INFO] [FML]: Searching M:\ShafferHack\ShafferHackSRC\run\.\mods for mods
+[18:31:35] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[18:31:35] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, shafferhack] at CLIENT
+[18:31:35] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, shafferhack] at SERVER
+[18:31:36] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:shafferhack
+[18:31:36] [main/INFO] [FML]: Processing ObjectHolder annotations
+[18:31:36] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[18:31:36] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:31:36] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:31:36] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:31:36] [main/INFO] [ShafferHack]: 'Silly Cutie' - jamie
+[18:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:31:36] [main/INFO] [FML]: Applying holder lookups
+[18:31:36] [main/INFO] [FML]: Holder lookups applied
+[18:31:36] [main/INFO] [FML]: Applying holder lookups
+[18:31:36] [main/INFO] [FML]: Holder lookups applied
+[18:31:36] [main/INFO] [FML]: Applying holder lookups
+[18:31:36] [main/INFO] [FML]: Holder lookups applied
+[18:31:36] [main/INFO] [FML]: Applying holder lookups
+[18:31:36] [main/INFO] [FML]: Holder lookups applied
+[18:31:36] [main/INFO] [FML]: Injecting itemstacks
+[18:31:36] [main/INFO] [FML]: Itemstack injection complete
+[18:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[18:31:37] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 283541500 nanos
+[18:31:37] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[18:31:37] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[18:31:37] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:31:38] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[18:31:38] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[18:31:39] [main/INFO] [FML]: Max texture size: 16384
+[18:31:39] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[18:31:40] [main/INFO] [FML]: Applying holder lookups
+[18:31:40] [main/INFO] [FML]: Holder lookups applied
+[18:31:40] [main/INFO] [ShafferHack]: 
+
+Loading ShafferHack
+[18:31:41] [main/INFO] [ShafferHack]: Managers loaded.
+[18:31:41] [main/INFO] [ShafferHack]: Modules loaded.
+[18:31:41] [main/INFO] [ShafferHack]: Config loaded.
+[18:31:41] [main/INFO] [ShafferHack]: EventManager loaded.
+[18:31:41] [main/INFO] [ShafferHack]: ShafferHack successfully loaded!
+
+[18:31:41] [main/INFO] [FML]: Injecting itemstacks
+[18:31:41] [main/INFO] [FML]: Itemstack injection complete
+[18:31:41] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[18:31:41] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:31:41] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[18:31:42] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[18:31:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[18:31:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[18:31:48] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[18:31:48] [Server thread/INFO] [FML]: Applying holder lookups
+[18:31:48] [Server thread/INFO] [FML]: Holder lookups applied
+[18:31:48] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@244c2e56)
+[18:31:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[18:31:49] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@244c2e56)
+[18:31:49] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@244c2e56)
+[18:31:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:31:50] [Server thread/INFO] [FML]: Unloading dimension -1
+[18:31:50] [Server thread/INFO] [FML]: Unloading dimension 1
+[18:31:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[18:31:50] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[18:31:50] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[18:31:50] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,mcp@9.42,shafferhack@0.4.2
+[18:31:50] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[18:31:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:31:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player510[local:E:74edeea4] logged in with entity id 325 at (134.25145638192976, 72.87641835579454, 423.97855378007233)
+[18:31:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player510 joined the game
+[18:31:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[18:31:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[18:31:52] [main/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[18:31:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <ShafferHack> Bind for ClickGui set to J
+[18:32:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Player510 tried to set an invalid carried item
+[18:45:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[18:45:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[18:45:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:45:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:45:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player510 lost connection: Disconnected
+[18:45:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player510 left the game
+[18:45:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[18:45:53] [Server thread/INFO] [net.minecraft.server.Minecra[18:46:06] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[18:46:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:46:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:46:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:46:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[18:46:06] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: The save is being accessed from another location, aborting
+[18:46:06] [Server thread/INFO] [FML]: Unloading dimension 0
+[18:46:07] [Server thread/INFO] [FML]: Applying holder lookups
+[18:46:07] [Server thread/INFO] [FML]: Holder lookups applied
+[18:46:07] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[18:46:07] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

@@ -8,7 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.Display;
 
-@Mod(modid = "shafferhack", name = "ShafferHack", version = "0.4.1")
+@Mod(modid = "shafferhack", name = "ShafferHack", version = "0.4.2")
 public class shafferhack {
     public static final String MODID = "shafferhack";
     public static final String MODNAME = "ShafferHack";
@@ -120,7 +120,7 @@ public class shafferhack {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        Display.setTitle("ShafferHack v0.4.1");
+        Display.setTitle("ShafferHack v0.4.2");
         shafferhack.load();
     }
 }

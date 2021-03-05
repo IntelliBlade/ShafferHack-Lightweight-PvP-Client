@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 TweakOrder: 0
-MixinConfigs: mixins.oyvey.json
+MixinConfigs: mixins.shafferhack.json
 FMLCorePluginContainsFMLMod: true
-FMLAT: oyvey_at.cfg
+FMLAT: shafferhack_at.cfg
 tweakClass: org.spongepowered.asm.launch.MixinTweaker
 ForceLoadAsMod: true
-FMLCorePlugin: me.alpha432.oyvey.mixin.OyVeyMixinLoader
+FMLCorePlugin: me.HHA.shafferhack.mixin.shafferhackMixinLoader
 

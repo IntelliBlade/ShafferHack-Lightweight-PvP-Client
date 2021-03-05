@@ -15,7 +15,7 @@ public class ChatModifier
     public boolean check;
 
     public ChatModifier() {
-        super("BetterChat", "Modifies your chat", Category.SHAFFER, true, false, false);
+        super("BetterChat", "Modifies your chat", Category.OTHER, true, false, false);
         this.setInstance();
     }
 
