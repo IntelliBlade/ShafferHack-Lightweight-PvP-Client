@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef4c366-fa88-41e6-8932-6d615416e2b2" name="Default Changelist" comment="" />
+    <list default="true" id="7ef4c366-fa88-41e6-8932-6d615416e2b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ShafferHackSRC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,7 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShafferHackSRC" />
+    <property name="last_opened_file_path" value="D:/femboyjamiecc" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -99,9 +101,10 @@
       <screen x="0" y="0" width="2534" height="1385" />
     </state>
     <state x="996" y="439" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613968854491" />
-    <state x="1046" y="447" key="FileChooserDialogImpl" timestamp="1614045559083">
+    <state x="1046" y="447" key="FileChooserDialogImpl" timestamp="1615261420739">
       <screen x="0" y="0" width="2534" height="1385" />
     </state>
+    <state x="1046" y="447" key="FileChooserDialogImpl/-1280.453.1267.973/336.-1080.1900.1029/-1366.-315.1352.720/2560.-486.1069.1860/3640.-712.3800.2098/0.0.2534.1385/-3201.453.1900.1029@0.0.2534.1385" timestamp="1615261420739" />
     <state x="1046" y="447" key="FileChooserDialogImpl/-1366.-416.1352.720/-3840.352.1900.1029/0.-1080.1900.1029/-1920.352.1900.1029/2560.-690.3800.2098/0.0.2534.1385@0.0.2534.1385" timestamp="1613528472477" />
     <state x="1046" y="447" key="FileChooserDialogImpl/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/-3840.352.1900.1029/-1366.-416.1352.720/0.-1080.1900.1029@0.0.2534.1385" timestamp="1614045559083" />
     <state x="1046" y="447" key="FileChooserDialogImpl/-1920.352.1900.1029/0.0.2534.1385/2560.-690.3800.2098/0.-1080.1900.1029/-1366.-416.1352.720/-3840.352.1900.1029@0.0.2534.1385" timestamp="1613885713967" />
